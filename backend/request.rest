@@ -12,7 +12,18 @@ Content-Type: application/json
 GET http://localhost:3000/api/services
 
 ###
-GET http://localhost:3000/api/services/68065ee89d336cf1e46b67e8
+GET http://localhost:3000/api/services/68065bd6edf16e576be12c1b
 
 ###
 DELETE  http://localhost:3000/api/services/68065ee89d336cf1e46b67e8
+
+###
+PUT http://localhost:3000/api/services/68065bd6edf16e576be12c1b
+Content-Type: application/json
+
+{
+    "name": "TESTE ATUALIZAÇÃO",
+    "description": "teste descrição",
+    "price": 2000,
+    "image": "https://unsplash.com/pt-br/fotografias/fotografia-aerea-da-cidade-rt8WwWTh0V0"
+}
