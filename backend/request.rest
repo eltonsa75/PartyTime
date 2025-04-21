@@ -2,8 +2,17 @@ POST http://localhost:3000/api/services
 Content-Type: application/json
 
 {
-    "name": "algum serviço",
-    "description": "alguma descrição",
-    "price": 1400,
+    "name": "Teste teste",
+    "description": "teste descrição",
+    "price": 1800,
     "image": "https://unsplash.com/pt-br/fotografias/fotografia-aerea-da-cidade-rt8WwWTh0V0"
 }
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/68065ee89d336cf1e46b67e8
+
+###
+DELETE  http://localhost:3000/api/services/68065ee89d336cf1e46b67e8
