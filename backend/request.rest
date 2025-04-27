@@ -2,7 +2,7 @@ POST http://localhost:3000/api/services
 Content-Type: application/json
 
 {
-    "name": "Teste teste",
+    "name": "atualizando",
     "description": "teste descrição",
     "price": 1800,
     "image": "https://unsplash.com/pt-br/fotografias/fotografia-aerea-da-cidade-rt8WwWTh0V0"
@@ -27,3 +27,30 @@ Content-Type: application/json
     "price": 2000,
     "image": "https://unsplash.com/pt-br/fotografias/fotografia-aerea-da-cidade-rt8WwWTh0V0"
 }
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+   "title": "Meu evento 3",
+   "author": "Elton",
+   "description": "Uma festa de aniversario",
+   "budget": 3000,
+   "image": "https://unsplash.com/pt-br/fotografias/fotografia-aerea-da-cidade-rt8WwWTh0V0",
+   "services": [
+        {
+            "name": "algum serviço 1",
+            "description": "teste descrição",
+            "price": 3000,
+            "image": "https://unsplash.com/pt-br/fotografias/fotografia-aerea-da-cidade-rt8WwWTh0V0"
+        },
+        {
+            "name": "algum serviço 2",
+            "description": "teste descrição",
+            "price": 1800,
+            "image": "https://unsplash.com/pt-br/fotografias/fotografia-aerea-da-cidade-rt8WwWTh0V0"
+        }
+   ]
+}
+

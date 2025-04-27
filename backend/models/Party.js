@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const {Schema} = mongoose
 
-const { serviceSchema } = require("Service")
+const { serviceSchema } = require("./Service")
 
 const partySchema = new Schema({
     title: {
@@ -21,7 +21,7 @@ const partySchema = new Schema({
         type: Number,
         required: true
     },
-    imagem: {
+    image: {
         type: String,
         required: true
     },
